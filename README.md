@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://github.com/Luan-Nijou/PassBy-Edge/assets/126830016/2a806388-f6d8-4c3d-9e92-bc2e74312154"/>
+<img src="https://github.com/Luan-Nijou/PassBy-Edge/assets/126830016/cd3fa323-a3db-4f91-9043-a81a7fc2f1b1"/>
 </p>
 <p align="center">
  
@@ -7,6 +7,7 @@
   <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=RED&style=for-the-badge"/>
  
 </p>
+
 
 
 ### Tópicos 
