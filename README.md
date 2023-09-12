@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://github.com/Luan-Nijou/GS-Edge/assets/126830016/78f30d66-4e7a-4dfe-b661-954d9fee8054"/>
+<img src="https://github.com/Luan-Nijou/PassBy-Edge/blob/main/src/img/PassBy.png"/>
 </p>
 <p align="center">
  
