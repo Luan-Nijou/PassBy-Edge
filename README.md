@@ -34,14 +34,15 @@
 
  [Acesso do código fonte da simulação.](https://github.com/Luan-Nijou/GS-Edge/blob/main/Code)
 
-## Descrição do projeto 
+## 📝 Descrição do projeto 
 
 <p align="justify">
- Simulação feita no tinkercad para controle de ambiente para uma plantação. Controlando niveis de luminosidade, temperatura, umidade
- e reservatório de líquido. 
+O PassBy um projeto pioneiro de gestão de estacionamentos,fundamentado na tecnologia de Comunicação de Campo Próximo (NFC). Este empreendimento destina-se a enfrentar de maneira abrangente as crescentes inquietações
+relacionadas à sustentabilidade e eficiência nas configurações urbanas. Além de modernizar os sistemas tradicionais de estacionamento, nossa abordagem visa catalisar a 
+conscientização sobre a importância de priorizar a preservação ambiental em todas as esferas da sociedade 
 </p> 
 
-## Layout da Simulação 
+## 🧰 Layout da Arquitetura 
 
 ![Copy of GS Plantação vertical](https://github.com/Luan-Nijou/GS-Edge/assets/126830016/436d6986-3eb5-47f6-8087-69d516220e19)
 
@@ -55,7 +56,7 @@ Ao entrar no link da [Simulação](https://www.tinkercad.com/things/eLjoggoASTQ-
 
 
 
-## Como rodar os testes
+## 📋 Como rodar os testes
 
 ![Componentes de testes](https://github.com/Luan-Nijou/GS-Edge/assets/126830016/53fa4147-e9bb-4877-a9a2-b6e343194aa2)
 
