@@ -42,12 +42,11 @@ relacionadas à sustentabilidade e eficiência nas configurações urbanas. Alé
 conscientização sobre a importância de priorizar a preservação ambiental em todas as esferas da sociedade 
 </p> 
 
-## 🧰 Layout da Arquitetura 
+## 🧰 1 - Layout básico de Arquitetura 
 
-![Copy of GS Plantação vertical](https://github.com/Luan-Nijou/GS-Edge/assets/126830016/436d6986-3eb5-47f6-8087-69d516220e19)
+![PassBy](https://github.com/Luan-Nijou/PassBy-Edge/assets/126830016/49baf424-5e0a-4dbe-9f69-cdb283f95860)
 
-![Componentes](https://github.com/Luan-Nijou/GS-Edge/assets/126830016/07b7b400-1d38-4a1d-8713-9cc403fbc0e8)
-
+## 🧰 2 - Layout básico de Arquitetura do hardware 
 
 ## Como rodar a aplicação :arrow_forward:
 
