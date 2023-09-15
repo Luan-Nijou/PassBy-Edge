@@ -28,7 +28,7 @@
 
 :small_blue_diamond: [Linguagem Usada](#linguagem-Usada)
 
-:small_blue_diamond: [Desenvolvedores](#desenvolvedores-octocat)
+:small_blue_diamond: [Desenvolvedores](#💻-desenvolvedores)
 
 :small_blue_diamond: [Licença ](#Licença )
 
