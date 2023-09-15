@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://github.com/Luan-Nijou/PassBy-Edge/assets/126830016/cd3fa323-a3db-4f91-9043-a81a7fc2f1b1"/>
+ <img src="https://github.com/Luan-Nijou/PassBy-Edge/assets/126830016/cd3fa323-a3db-4f91-9043-a81a7fc2f1b1"/>
 </p>
 <p align="center">
  
@@ -14,23 +14,23 @@
 
 :small_blue_diamond: [Acesso ao projeto](#-acesso-ao-projeto)
 
-:small_blue_diamond: [Descrição do projeto](#-Descrição-do-projeto)
+:small_blue_diamond: [Descrição do projeto](#-descrição-do-projeto)
 
-:small_blue_diamond: [Layout básico de Arquitetura](#-1-Layout-básico-de-Arquitetura)
+:small_blue_diamond: [Layout básico de Arquitetura](#-1-layout-básico-de-arquitetura)
 
 :small_blue_diamond: [Descrição da Arquitetura](#-descrição-da-arquitetura)
 
 :small_blue_diamond: [Descrição do funcionamento](#-descrição-do-funcionamento)  
 
-:small_blue_diamond: [Layout básico da Simulação](#-layout-básico-da-simulação)
+:small_blue_diamond: [Layout básico da Simulação](#-2-layout-básico-da-simulação)
 
 :small_blue_diamond: [Descrição da Simulação](#-descrição-da-simulação)
 
-:small_blue_diamond: [Linguagem Usada](#-linguagem-Usada)
+:small_blue_diamond: [Linguagem Usada](#-linguagem-usada)
 
 :small_blue_diamond: [Desenvolvedores](#-desenvolvedores)
 
-:small_blue_diamond: [Licença ](#-Licença )
+:small_blue_diamond: [Licença](#-licença)
 
 
 
