@@ -51,28 +51,57 @@ conscientização sobre a importância de priorizar a preservação ambiental em
 
 ## 📋 Descrição da Arquitetura 
 
-
+**Instância 1 - Dispositivos IoT e Interação NFC-RFID:**
 <p align="justify">
-> Todos os ambientes estarão conectados a internet
+ Nesta primeira instância, o projeto envolve a conexão de todos os ambientes à internet. Os dispositivos IoT desempenham um papel fundamental na troca de informações. Um dispositivo móvel equipado com um chip NFC é usado para estabelecer comunicação com um totem. Este totem possui uma placa ESP32 e um sensor RFID para capturar as informações trocadas e enviá-las para o banco de dados central. Essa interação permite que informações essenciais sejam compartilhadas de forma eficiente e segura.
+ <p/>
+  
+**Instância 2 - Aplicativo de Gerenciamento:**
+<p align="justify">
+ Na segunda instância, o aplicativo é o ponto de controle central. Ele está conectado a informações estáticas, como os IDs dos carros, e também oferece monitoramento em tempo real da localização dos carros. Além disso, o aplicativo é integrado a um sistema de pagamento, fornecendo aos usuários a conveniência de uma carteira virtual para realizar transações de pagamento. Esta parte do projeto torna a interação dos usuários com o sistema mais intuitiva e funcional.
+ <p/>
+  
+ **Instância 3 - Ambiente de Servidores e Segurança:**
+<p align="justify">
+ A terceira instância concentra-se no ambiente dos servidores, que é o cérebro do sistema. Aqui, todos os dados são processados, armazenados e gerenciados de maneira segura. Isso inclui o registro de transações de pagamento e a manutenção de registros cruciais. A segurança é uma prioridade nesta instância, garantindo que todas as operações sejam protegidas e os dados permaneçam confidenciais.
 <p/>
 <p align="justify">
- > Na primeira instância temos os dispositivos que trocarão informações entre si, que são os "IoT device", sendo eles: Um dispositivo móvel que contenha um chip NFC, sendo usado para trocar informações com o totem, que terá uma placa ESP32 junto a um sensor Rfid, para que capte as informações que estarão sendo trocadas e seja enviada para o banco de dados. 
- <p/>
- <p align="justify">
- > A segunda instância é sobre o aplicativo, que estará ligado com informações estáticas(como os ID do(s) carro(s)), com informações de monitoriamento em tempo real em que o carro está  no local, e com informações de pagamento como uma carteira virtual caso queira adicionar a forma de pagamento.
-  <p/>
-  <p align="justify">
- > A terceira instância está focada no ambiente de servidor(es), no qual estará todo o processo de dados, armazenamento de dados, e o sistema seguro de pagamento. 
- <p/>
+Essas melhorias nas descrições destacam a importância de cada instância do projeto e como elas se conectam para criar um sistema abrangente de gerenciamento de informações, monitoramento e pagamento.
+<p/>
 
 ## 📋 Descrição do funcionamento
 
+**Acesso ao Sistema:**
 <p align="justify">
- 1. Para ter acesso a todo o sistema será preciso ter o app baixado em seu dispositivo móvel.
+Para acessar o sistema completo, é necessário ter o aplicativo instalado em seu dispositivo móvel e possuir um chip NFC associado ao dispositivo.
  <p/>
- <p align="justify">
- 2. Para ter acesso a todo o sistema será preciso ter o app baixado em seu dispositivo móvel.
+  
+**Configuração do Aplicativo:**
+<p align="justify">
+Antes de usar o sistema, é necessário configurar o aplicativo. Isso inclui realizar um cadastro no aplicativo, onde você fornecerá suas informações pessoais e receberá uma identificação de registro exclusiva, gerada aleatoriamente.
  <p/>
+
+  **Registro Automático no Totem:**
+<p align="justify">
+Uma vez que o aplicativo esteja configurado e você tenha sua identificação de registro, basta aproximar seu celular do totem local. O totem está equipado com tecnologia NFC que permite a troca de informações de forma segura e instantânea. Quando você passa o celular no totem, ele automaticamente registra sua presença no servidor do estacionamento.
+ <p/>
+  
+**Monitoramento e Cálculo de Pagamento:**
+<p align="justify">
+Após o registro no servidor, o aplicativo exibirá em tempo real o período de tempo que você está ocupando o espaço de estacionamento. Além disso, o sistema calcula automaticamente o valor a ser pago com base no tempo que você passou no local, conforme as tarifas estabelecidas.
+Essas descrições refinadas destacam a simplicidade e a eficiência do processo, desde a configuração inicial até o uso prático do sistema para registro de presença e cálculo de pagamento em tempo real.
+ <p/>
+  
+## 🧰 2 - Layout básico da Simulação
+
+![LayoutSimulação](https://github.com/Luan-Nijou/PassBy-Edge/assets/126830016/e6ab3583-d07f-4397-bf46-fd9e6c17b635)
+
+## 📋 Descrição da Arquitetura 
+
+<p align="justify">
+ Com o sistema de leitor funcionando e o "ESP32" conectado no wifi passando as informações para o site, a plataforma terá uma unica ação de mostrar em um display
+ se o ID estará com o acesso negado ou permitido. 
+<p/>
 
 
 ## Linguagem Usada
@@ -83,7 +112,8 @@ conscientização sobre a importância de priorizar a preservação ambiental em
 ## 💻 Desenvolvedores 
 
 
-| [<img src="https://i.imgur.com/ZIv3QYz.jpg" width=150 height= 150><br><sub>Luan Nijou</sub>](https://github.com/Luan-Nijou) | [<img src="https://i.imgur.com/FZyQdzq.jpg" width=150 height= 150><br><sub>Roberto Oliveira Azzalin</sub>](https://github.com/Robertooan07) | [<img src="https://i.imgur.com/KactqDe.jpg" width=150 height= 150><br><sub>Tony Willian</sub>](https://github.com/TonyWillianFIAP) | [<img src="https://i.imgur.com/MEqkl53.jpg" width=150 height= 150><br><sub>Gabriel Augusto Maciel</sub>](https://github.com/GabrielToledoo) | [<img src="https://avatars.githubusercontent.com/u/113686045?v=4" width=150 height= 150><br><sub>Henrique Parra Benitez</sub>](https://github.com/rickparra) |
+
+| [<img src="https://i.imgur.com/ZIv3QYz.jpg" width=150 height= 150><br><sub>Luan Nijou</sub>](https://github.com/Luan-Nijou) | [<img src="https://i.imgur.com/p8nq4Xu.jpg" width=150 height= 150><br><sub>Pedro Henrique Alves Guariente</sub>](https://github.com/Robertooan07) | [<img src="" width=150 height= 150><br><sub>David de Medeiros Pacheco Junior</sub>](https://github.com/TonyWillianFIAP) | [<img src="" width=150 height= 150><br><sub>Kaique Maia Reis Silva</sub>](https://github.com/GabrielToledoo) | [<img src="" width=150 height= 150><br><sub>Orlando Akio Morii Cardoso</sub>](https://github.com/rickparra) |
 | :---: | :---: | :---: | :---: | :---: |
 
 
