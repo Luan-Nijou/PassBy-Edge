@@ -16,21 +16,21 @@
 
 :small_blue_diamond: [Descrição do projeto](#-Descrição-do-projeto)
 
-:small_blue_diamond: [Layout básico de Arquitetura](#layout-básico-de-Arquitetura)
+:small_blue_diamond: [Layout básico de Arquitetura](#-layout-básico-de-Arquitetura)
 
-:small_blue_diamond: [Descrição da Arquitetura](#descrição-da-arquitetura)
+:small_blue_diamond: [Descrição da Arquitetura](#-descrição-da-arquitetura)
 
-:small_blue_diamond: [Descrição do funcionamento](#descrição-do-funcionamento)  
+:small_blue_diamond: [Descrição do funcionamento](#-descrição-do-funcionamento)  
 
-:small_blue_diamond: [Layout básico da Simulação](#layout-básico-da-simulação)
+:small_blue_diamond: [Layout básico da Simulação](#-layout-básico-da-simulação)
 
-:small_blue_diamond: [Descrição da Simulação](#descrição-da-simulação)
+:small_blue_diamond: [Descrição da Simulação](#-descrição-da-simulação)
 
-:small_blue_diamond: [Linguagem Usada](#linguagem-Usada)
+:small_blue_diamond: [Linguagem Usada](#-linguagem-Usada)
 
-:small_blue_diamond: [Desenvolvedores](#desenvolvedores)
+:small_blue_diamond: [Desenvolvedores](#-desenvolvedores)
 
-:small_blue_diamond: [Licença ](#Licença )
+:small_blue_diamond: [Licença ](#-Licença )
 
 
 
