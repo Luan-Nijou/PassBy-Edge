@@ -44,9 +44,10 @@ conscientização sobre a importância de priorizar a preservação ambiental em
 
 ## 🧰 1 - Layout básico de Arquitetura 
 
-![PassBy](https://github.com/Luan-Nijou/PassBy-Edge/assets/126830016/49baf424-5e0a-4dbe-9f69-cdb283f95860)
 
-## 🧰 2 - Layout básico de Arquitetura do hardware 
+![PassBy arquitetura](https://github.com/Luan-Nijou/PassBy-Edge/assets/126830016/42ee9ff0-d52b-4928-8a28-a1a14114a040)
+
+
 
 ## Como rodar a aplicação :arrow_forward:
 
@@ -57,7 +58,7 @@ Ao entrar no link da [Simulação](https://www.tinkercad.com/things/eLjoggoASTQ-
 
 ## 📋 Como rodar os testes
 
-![Componentes de testes](https://github.com/Luan-Nijou/GS-Edge/assets/126830016/53fa4147-e9bb-4877-a9a2-b6e343194aa2)
+
 
 <p>Possuindo o próprio site para a simulação, ao clicar no botão "Iniciar Simulação", será possível testar os 5 componentes:</p>
 <p align="justify">> 1 - Componente chamado potenciômetro: Ao mexer na chavinha preta, será possível regular tanto para a direita, quanto para a esquerda, e fará com que o LCD fiquei mais iluminado(Ao colocar a chave mais para a direita) ou fique apagado(Ao colocar a chave mais para a esquerda). </p>
