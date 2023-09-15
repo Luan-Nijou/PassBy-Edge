@@ -16,13 +16,13 @@
 
 :small_blue_diamond: [Descrição do projeto](#-descrição-do-projeto)
 
-:small_blue_diamond: [Layout básico de Arquitetura](#-1-layout-básico-de-arquitetura)
+:small_blue_diamond: [Layout básico de Arquitetura](#-layout-básico-de-arquitetura)
 
 :small_blue_diamond: [Descrição da Arquitetura](#-descrição-da-arquitetura)
 
 :small_blue_diamond: [Descrição do funcionamento](#-descrição-do-funcionamento)  
 
-:small_blue_diamond: [Layout básico da Simulação](#-2-layout-básico-da-simulação)
+:small_blue_diamond: [Layout básico da Simulação](#-layout-básico-da-simulação)
 
 :small_blue_diamond: [Descrição da Simulação](#-descrição-da-simulação)
 
@@ -46,7 +46,7 @@ relacionadas à sustentabilidade e eficiência nas configurações urbanas. Alé
 conscientização sobre a importância de priorizar a preservação ambiental em todas as esferas da sociedade 
 </p> 
 
-## 🧰 1 - Layout básico de Arquitetura 
+## 🧰 Layout básico de Arquitetura 
 
 
 ![PassBy arquitetura](https://github.com/Luan-Nijou/PassBy-Edge/assets/126830016/42ee9ff0-d52b-4928-8a28-a1a14114a040)
@@ -96,7 +96,7 @@ Após o registro no servidor, o aplicativo exibirá em tempo real o período de 
 Essas descrições refinadas destacam a simplicidade e a eficiência do processo, desde a configuração inicial até o uso prático do sistema para registro de presença e cálculo de pagamento em tempo real.
  <p/>
   
-## 🧰 2 - Layout básico da Simulação
+## 🧰 Layout básico da Simulação
 
 ![LayoutSimulação](https://github.com/Luan-Nijou/PassBy-Edge/assets/126830016/e6ab3583-d07f-4397-bf46-fd9e6c17b635)
 
