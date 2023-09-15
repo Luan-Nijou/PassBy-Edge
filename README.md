@@ -16,11 +16,15 @@
 
 :small_blue_diamond: [Descrição do projeto](#descrição-do-projeto)
 
-:small_blue_diamond: [Layout da Simulação](#layout-da-simulação)
+:small_blue_diamond: [Layout básico de Arquitetura](#layout-básico-de-Arquitetura)
 
-:small_blue_diamond: [Como rodar a aplicação](#como-rodar-a-aplicação-arrow_forward)
+:small_blue_diamond: [Descrição da Arquitetura](#descrição-da-arquitetura)
 
-:small_blue_diamond: [Como rodar os testes](#Como-rodar-os-testes)
+:small_blue_diamond: [Descrição do funcionamento](#descrição-do-funcionamento)  
+
+:small_blue_diamond: [Layout básico da Simulação](#layout-básico-da-simulação)
+
+:small_blue_diamond: [Descrição da Simulação](#descrição-da-simulação)
 
 :small_blue_diamond: [Linguagem Usada](#linguagem-Usada)
 
@@ -96,7 +100,7 @@ Essas descrições refinadas destacam a simplicidade e a eficiência do processo
 
 ![LayoutSimulação](https://github.com/Luan-Nijou/PassBy-Edge/assets/126830016/e6ab3583-d07f-4397-bf46-fd9e6c17b635)
 
-## 📋 Descrição da Arquitetura 
+## 📋 Descrição da Simulação
 
 <p align="justify">
  Com o sistema de leitor funcionando e o "ESP32" conectado no wifi passando as informações para o site, a plataforma terá uma unica ação de mostrar em um display
