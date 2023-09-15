@@ -106,7 +106,8 @@ Essas descrições refinadas destacam a simplicidade e a eficiência do processo
  Com o sistema de leitor funcionando e o "ESP32" conectado no wifi passando as informações para o site, a plataforma terá uma unica ação de mostrar em um display
  se o ID estará com o acesso negado ou permitido. 
 <p/>
-
+ 
+ ![TagoIO](https://github.com/Luan-Nijou/PassBy-Edge/assets/126830016/7b6968b1-98b2-41f1-810a-e6542702ae7c)
 
 ## Linguagem Usada
 
