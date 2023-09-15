@@ -49,25 +49,30 @@ conscientização sobre a importância de priorizar a preservação ambiental em
 
 
 
-## Como rodar a aplicação :arrow_forward:
+## 📋 Descrição da Arquitetura 
 
 
-Ao entrar no link da [Simulação](https://www.tinkercad.com/things/eLjoggoASTQ-copy-of-gs-plantacao-vertical), irá levar para o site do Tinkercad. Assim na própria tela, no canto superior direito terá um botão escrito **Iniciar Simulação** (Para ver a simulação funcionando) e um botão escrito **Código** (Para ver o código que foi escrito).
+<p align="justify">
+> Todos os ambientes estarão conectados a internet
+<p/>
+<p align="justify">
+ > Na primeira instância temos os dispositivos que trocarão informações entre si, que são os "IoT device", sendo eles: Um dispositivo móvel que contenha um chip NFC, sendo usado para trocar informações com o totem, que terá uma placa ESP32 junto a um sensor Rfid, para que capte as informações que estarão sendo trocadas e seja enviada para o banco de dados. 
+ <p/>
+ <p align="justify">
+ > A segunda instância é sobre o aplicativo, que estará ligado com informações estáticas(como os ID do(s) carro(s)), com informações de monitoriamento em tempo real em que o carro está  no local, e com informações de pagamento como uma carteira virtual caso queira adicionar a forma de pagamento.
+  <p/>
+  <p align="justify">
+ > A terceira instância está focada no ambiente de servidor(es), no qual estará todo o processo de dados, armazenamento de dados, e o sistema seguro de pagamento. 
+ <p/>
 
+## 📋 Descrição do funcionamento
 
-
-## 📋 Como rodar os testes
-
-
-
-<p>Possuindo o próprio site para a simulação, ao clicar no botão "Iniciar Simulação", será possível testar os 5 componentes:</p>
-<p align="justify">> 1 - Componente chamado potenciômetro: Ao mexer na chavinha preta, será possível regular tanto para a direita, quanto para a esquerda, e fará com que o LCD fiquei mais iluminado(Ao colocar a chave mais para a direita) ou fique apagado(Ao colocar a chave mais para a esquerda). </p>
-<p align="justify">> 2 - Outro potenciômetro: Como já foi falado, a chave preta regula algo. No ponto 2, é uma simulação da umidade, em que está mapeada de 0%(total para a esquerda) até 100%(total para a direita). </p>
-<p align="justify">> 3 - Componente chamado TMP36: Ele controla a temperatura, com uma faixa de erro bem pequena. Em que, ao clicar sobre ele, irá aparecer um sistema de regulagem, que vai de -40°C(total para a esquerda) até 125°C(total para a direita). </p>
-<p align="justify">>  4 - Componente chamado LDR: Ele controla a luminosidade. Em que, ao clicar sobre ele, irá aparecer um sistema de regulagem, que vai do ambiente mais escuro (total para esquerda) para um ambiente mais claro (total para direita). </p>
-<p align="justify">>   5 - Outro potenciômetro: Como já foi falado, a chave preta regula algo. No ponto 5, é uma simulação da quantidade de um líquido que está armazenado, assim controlando se está á um nível baixo, ou está ok. Com base de um local de 2000 litros, se estiver abaixo ou igual a 600 litros, irá tocar o buzzer, por está abaixo do nível.</p>
-<br align="justify"> As mudanças feitas nos componentes 2,3,4 e 5 demoram pelo menos 2 segundo para aparer no LCD.
-
+<p align="justify">
+ 1. Para ter acesso a todo o sistema será preciso ter o app baixado em seu dispositivo móvel.
+ <p/>
+ <p align="justify">
+ 2. Para ter acesso a todo o sistema será preciso ter o app baixado em seu dispositivo móvel.
+ <p/>
 
 
 ## Linguagem Usada
@@ -75,7 +80,7 @@ Ao entrar no link da [Simulação](https://www.tinkercad.com/things/eLjoggoASTQ-
 <img src="https://www.alura.com.br/artigos/assets/formacao-linguagem-c-plus-plus/img-01.png" width=50/>
 
 
-## Desenvolvedores :octocat:
+## 💻 Desenvolvedores 
 
 
 | [<img src="https://i.imgur.com/ZIv3QYz.jpg" width=150 height= 150><br><sub>Luan Nijou</sub>](https://github.com/Luan-Nijou) | [<img src="https://i.imgur.com/FZyQdzq.jpg" width=150 height= 150><br><sub>Roberto Oliveira Azzalin</sub>](https://github.com/Robertooan07) | [<img src="https://i.imgur.com/KactqDe.jpg" width=150 height= 150><br><sub>Tony Willian</sub>](https://github.com/TonyWillianFIAP) | [<img src="https://i.imgur.com/MEqkl53.jpg" width=150 height= 150><br><sub>Gabriel Augusto Maciel</sub>](https://github.com/GabrielToledoo) | [<img src="https://avatars.githubusercontent.com/u/113686045?v=4" width=150 height= 150><br><sub>Henrique Parra Benitez</sub>](https://github.com/rickparra) |
@@ -86,4 +91,4 @@ Ao entrar no link da [Simulação](https://www.tinkercad.com/things/eLjoggoASTQ-
 
 The [MIT License]() (MIT)
 
-Copyright :copyright: 2023 - FOODFLOW
+Copyright :copyright: 2023 - PassBy
