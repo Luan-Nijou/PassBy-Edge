@@ -117,7 +117,7 @@ Para replicar ou/e modificar do seu modo:
  1. Possuir em seu dispositivo o [Arduino IDE](https://www.arduino.cc/en/software) e uma conta na [tago.io](https://tago.io),e [aqui um video](https://www.youtube.com/watch?v=leKi6Tt3DXI) para enteder o basico da tago.
  2. Possuir o hardware, que será: Um ESP32, Um kit RFid Rc522, Cabos jumpers, e opcional: uma protoboard(para melhor fixação dos itens).
  3. Para configuração do IDE e das ligações do hardware, sugiro seguir os passos desse [site](https://www.electronicwings.com/esp32/rfid-rc522-interfacing-with-esp32).
- 4. Depois, faça as configurações do código, como: 
+ 4. Depois, faça as configurações principais do código, como: Colocar o nome e a senha corretamente, e o token do device que foi criado na tago.
 <p/>
 
 ## 💻 Linguagem Usada
