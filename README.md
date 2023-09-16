@@ -103,18 +103,21 @@ Essas descrições refinadas destacam a simplicidade e a eficiência do processo
 ## 📋 Descrição da Simulação
 
 <p align="justify">
-Com o sistema de leitor funcionando e o ESP32 conectado ao Wi-Fi, transmitindo informações para o site, a plataforma terá a única função de exibir em um display se o ID possui acesso permitido ou negado
+Com o sistema de leitor funcionando e o ESP32 conectado ao Wi-Fi, transmitindo informações para o site, a plataforma terá a função de exibir em 3 display, 1º se foi confirmado o ID(true para ID condizente), 2º mostrando o ID, e o 3º se o ID pode passar(true para acesso permitido)
 <p/>
  
- ![TagoIO](https://github.com/Luan-Nijou/PassBy-Edge/assets/126830016/7b6968b1-98b2-41f1-810a-e6542702ae7c)
+ 
+![tago 2](https://github.com/Luan-Nijou/PassBy-Edge/assets/126830016/5f0505cd-3d13-4ffc-9ae7-2e4782a8d128)
 
 ## Replicar 
 
 <p align="justify">
 Para replicar ou/e modificar do seu modo:
 
- 1. Possuir em seu dispositivo o [Arduino IDE](https://www.arduino.cc/en/software) e uma conta na [tago.io](https://tago.io)
- 2. 
+ 1. Possuir em seu dispositivo o [Arduino IDE](https://www.arduino.cc/en/software) e uma conta na [tago.io](https://tago.io),e [aqui um video](https://www.youtube.com/watch?v=leKi6Tt3DXI) para enteder o basico da tago.
+ 2. Possuir o hardware, que será: Um ESP32, Um kit RFid Rc522, Cabos jumpers, e opcional: uma protoboard(para melhor fixação dos itens).
+ 3. Para configuração do IDE e das ligações do hardware, sugiro seguir os passos desse [site](https://www.electronicwings.com/esp32/rfid-rc522-interfacing-with-esp32).
+ 4. Depois, faça as configurações do código, como: 
 <p/>
 
 ## 💻 Linguagem Usada
