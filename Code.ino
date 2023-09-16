@@ -8,11 +8,11 @@
 
 MFRC522 rfid(SS_PIN, RST_PIN);
 
-char nomeWifi[] = "iPhone Airton";
-char senhaWifi[] = "2153818aa";
+char nomeWifi[] = "Nome do Wifi ";
+char senhaWifi[] = "Senha do Wifi";
 char serverAddress[] = "https://api.tago.io/data";
 char contentHeader[] = "application/json";
-char tokenHeader[] = "Token!!!!";
+char tokenHeader[] = "Token!!"; //Token do dispositivo que estara conectado, estara na aba device da tago, e clique no device que voce criou, para as informações serem enviadas
 
 void setup() {
   Serial.begin(9600);
