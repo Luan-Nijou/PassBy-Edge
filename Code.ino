@@ -3,8 +3,8 @@
 #include <WiFi.h>
 #include <HTTPClient.h>
 
-#define SS_PIN 10
-#define RST_PIN 9
+#define SS_PIN 0
+#define RST_PIN 5
 
 MFRC522 rfid(SS_PIN, RST_PIN);
 
@@ -13,7 +13,6 @@ char senhaWifi[] = "2153818aa";
 char serverAddress[] = "https://api.tago.io/data";
 char contentHeader[] = "application/json";
 char tokenHeader[] = "Token!!!!";
-float temperatura = 0;
 
 void setup() {
   Serial.begin(9600);
@@ -39,12 +38,10 @@ void loop() {
     Serial.print("Identificador (UID) da tag: ");
     Serial.println(strID);
 
-    // Agora, envie a temperatura para o servidor TagoIO
-    send_temperatura();
+    // Agora, envie as informações para o servidor da TagoIO
+    send_info();
   }
-
-  // Incrementar temperatura simulada
-  temperatura++;
+  
   delay(5000);
 }
 
@@ -61,17 +58,35 @@ void init_wifi() {
   Serial.println(WiFi.localIP());
 }
 
-void send_temperatura() {
+void send_info() {
   char anyData[30];
-  char postData[300];
+  char postData[500]; // Aumente o tamanho para acomodar as novas variáveis
   char anyData1[30];
+  char anyData2[30];
   char bAny[30];
   int statusCode = 0;
-  strcpy(postData, "{\n\t\"variable\": \"temperature\",\n\t\"value\": ");
-  dtostrf(temperatura, 6, 2, anyData);
-  strncat(postData, anyData, 100);
-  strcpy(anyData1, ",\n\t\"unit\": \"C\"\n\t}\n");
-  strncat(postData, anyData1, 100);
+
+  // Inclua as novas variáveis confirmacao e acesso
+  bool confirmacao = true;
+  bool acesso = false;
+
+  // Construa a string JSON com as novas variáveis
+  strcpy(postData, "{\n\t\"variable\": \"id\",\n\t\"value\": ");
+  strcat(postData, strID);
+  strcpy(anyData, "\n\t\ },");
+  strcat(postData, anyData);
+  
+  strcat(postData, "\n\t{\n\t\"variable\": \"confirmacao\",\n\t\"value\": ");
+  strcat(postData, confirmacao ? "true" : "false");
+  strcpy(anyData1, "\n\t\ },");
+  strcat(postData, anyData1);
+  
+  strcat(postData, "\n\t{\n\t\"variable\": \"acesso\",\n\t\"value\": ");
+  strcat(postData, acesso ? "true" : "false");
+   strcpy(anyData2, "\n\t\ }");
+  strcat(postData, anyData2);
+
+  // Resto do código permanece o mesmo
   Serial.println(postData);
   HTTPClient client;
   client.begin(serverAddress);
@@ -84,4 +99,5 @@ void send_temperatura() {
   Serial.println("End of POST to TagoIO");
   Serial.println();
 }
+
 
