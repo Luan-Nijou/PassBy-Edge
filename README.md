@@ -103,19 +103,26 @@ Essas descrições refinadas destacam a simplicidade e a eficiência do processo
 ## 📋 Descrição da Simulação
 
 <p align="justify">
- Com o sistema de leitor funcionando e o "ESP32" conectado no wifi passando as informações para o site, a plataforma terá uma unica ação de mostrar em um display
- se o ID estará com o acesso negado ou permitido. 
+Com o sistema de leitor funcionando e o ESP32 conectado ao Wi-Fi, transmitindo informações para o site, a plataforma terá a única função de exibir em um display se o ID possui acesso permitido ou negado
 <p/>
  
  ![TagoIO](https://github.com/Luan-Nijou/PassBy-Edge/assets/126830016/7b6968b1-98b2-41f1-810a-e6542702ae7c)
 
-## Linguagem Usada
+## Replicar 
+
+<p align="justify">
+Para replicar ou/e modificar do seu modo:
+
+ 1. Possuir em seu dispositivo o [Arduino IDE](https://www.arduino.cc/en/software) e uma conta na [tago.io](https://tago.io)
+ 2. 
+<p/>
+
+## 💻 Linguagem Usada
 
 <img src="https://www.alura.com.br/artigos/assets/formacao-linguagem-c-plus-plus/img-01.png" width=50/>
 
 
 ## 💻 Desenvolvedores 
-
 
 
 | [<img src="https://i.imgur.com/ZIv3QYz.jpg" width=150 height= 150><br><sub>Luan Nijou</sub>](https://github.com/Luan-Nijou) | [<img src="https://i.imgur.com/p8nq4Xu.jpg" width=150 height= 150><br><sub>Pedro Henrique Alves Guariente</sub>](https://github.com/Robertooan07) | [<img src="" width=150 height= 150><br><sub>David de Medeiros Pacheco Junior</sub>](https://github.com/TonyWillianFIAP) | [<img src="" width=150 height= 150><br><sub>Kaique Maia Reis Silva</sub>](https://github.com/GabrielToledoo) | [<img src="" width=150 height= 150><br><sub>Orlando Akio Morii Cardoso</sub>](https://github.com/rickparra) |
