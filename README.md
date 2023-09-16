@@ -128,7 +128,7 @@ Para replicar ou/e modificar do seu modo:
 ## 💻 Desenvolvedores 
 
 
-| [<img src="https://i.imgur.com/ZIv3QYz.jpg" width=150 height= 150><br><sub>Luan Nijou</sub>](https://github.com/Luan-Nijou) | [<img src="https://i.imgur.com/p8nq4Xu.jpg" width=150 height= 150><br><sub>Pedro Henrique Alves Guariente</sub>](https://github.com/Robertooan07) | [<img src="" width=150 height= 150><br><sub>David de Medeiros Pacheco Junior</sub>](https://github.com/TonyWillianFIAP) | [<img src="" width=150 height= 150><br><sub>Kaique Maia Reis Silva</sub>](https://github.com/GabrielToledoo) | [<img src="" width=150 height= 150><br><sub>Orlando Akio Morii Cardoso</sub>](https://github.com/rickparra) |
+| [<img src="https://i.imgur.com/ZIv3QYz.jpg" width=150 height= 150><br><sub>Luan Nijou</sub>](https://github.com/Luan-Nijou) | [<img src="https://i.imgur.com/p8nq4Xu.jpg" width=150 height= 150><br><sub>Pedro Henrique Alves Guariente</sub>](https://github.com/Robertooan07) | [<img src="https://i.imgur.com/qiQoCcq.jpg" width=150 height= 150><br><sub>David de Medeiros Pacheco Junior</sub>](https://github.com/TonyWillianFIAP) | [<img src="https://i.imgur.com/noeh6xz.jpg" width=150 height= 150><br><sub>Kaique Maia Reis Silva</sub>](https://github.com/GabrielToledoo) | [<img src="" width=150 height= 150><br><sub>Orlando Akio Morii Cardoso</sub>](https://github.com/rickparra) |
 | :---: | :---: | :---: | :---: | :---: |
 
 
