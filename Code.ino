@@ -1,3 +1,7 @@
+/* library:
+https://www.arduino.cc/reference/en/libraries/mfrc522/
+
+*/
 #include <SPI.h>
 #include <MFRC522.h>
 #include <WiFi.h>
