@@ -10,6 +10,7 @@
 #define RST_PIN 5
 
 char  ipJson[100];
+
 String strID ="AAAAAAAAA";
 
 MFRC522 rfid(SS_PIN, RST_PIN);
@@ -74,13 +75,13 @@ void loop()
     Serial.print("Identificador (UID) da tag: ");
     Serial.println(strID);
     
-
+if 
 
   StaticJsonDocument<300> documentoJson;
   documentoJson["variable"] = "id";
   documentoJson["value"] = strID;
   serializeJson(documentoJson, ipJson);
-  Serial.println("Enviando dados de temperatura");
+  Serial.println("Enviando os dados");
   Serial.println(ipJson);
   
   client.publish("topicIP", ipJson); 
