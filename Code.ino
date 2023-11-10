@@ -6,7 +6,6 @@
 
 //Doc: https://github.com/plapointe6/EspMQTTClient
 
-
 #define SS_PIN 0
 #define RST_PIN 5
 
@@ -18,11 +17,11 @@ MFRC522 rfid(SS_PIN, RST_PIN);
 //MQTT and WiFi configuration
 EspMQTTClient client
 (
-  "Euuu",                //nome da sua rede Wi-Fi
-  "xvqb4249",           //senha da sua rede Wi-Fi
+  "***",                //nome da sua rede Wi-Fi
+  "****",           //senha da sua rede Wi-Fi
   "mqtt.tago.io",       //Endereço do servidor MQTT
   "Default",            //User é sempre default pois vamos usar token
-  "ccdf5e6d-107a-4ee8-932f-c5902a972d1d",              // Código do Token
+  "****",              // Código do Token
   "esp32",              //Nome do device
   1883                  //Porta de comunicação padrao
 );
@@ -30,7 +29,7 @@ EspMQTTClient client
 void setup()
 {
   
- Serial.begin(9600);
+   Serial.begin(9600);
   SPI.begin();
   rfid.PCD_Init();
   
@@ -59,9 +58,8 @@ void onConnectionEstablished()
 //loop do programa
 void loop()
 {
-   /*if (!rfid.PICC_IsNewCardPresent() || !rfid.PICC_ReadCardSerial()) {
-    // Nenhum cartão RFID presente ou não foi possível ler o cartão
-    // Coloque aqui a sua lógica adicional, se necessário
+   if (!rfid.PICC_IsNewCardPresent() || !rfid.PICC_ReadCardSerial()) {
+    
   } else {
     // Cartão RFID detectado e lido
     for (byte i = 0; i < 4; i++) {
@@ -70,7 +68,7 @@ void loop()
           String(rfid.uid.uidByte[i], HEX) +
           (i != 3 ? ":" : "");
     }
-   }*/
+   }
    
     strID.toUpperCase();
     Serial.print("Identificador (UID) da tag: ");
